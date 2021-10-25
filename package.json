@@ -1,0 +1,20 @@
+{
+  "name": "transparent-architecture-js-ioc",
+  "author": "Shivendra Odean",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:local": "NODE_PATH=src ts-node-dev --files --inspect --respawn -- src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^16.11.4",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.1.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  }
+}
